@@ -5,5 +5,4 @@ public class HelloWorld {
 		String str = "Hello World!";
 		System.out.println(str);
 	}
-
 }
