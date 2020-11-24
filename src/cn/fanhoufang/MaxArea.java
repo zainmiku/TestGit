@@ -13,7 +13,7 @@ package cn.fanhoufang;
  */
 public class MaxArea {
 	public static void main(String[] args) {
-		int[] arr = { 1, 8, 6, 2, 7, 4, 8, 3, 7,8,6 };
+		int[] arr = {2,6,19,5,7,8,0};
 		System.out.println(maxArea(arr));
 	}
 
