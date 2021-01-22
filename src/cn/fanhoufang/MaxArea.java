@@ -1,5 +1,7 @@
 package cn.fanhoufang;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * @author 樊厚方 
  *			 给定 n 个非负整数 a1，a2，...，an，每个数代表坐标中的一个点 (i, ai) 。
@@ -12,11 +14,13 @@ package cn.fanhoufang;
  *
  */
 public class MaxArea {
-	public static void main(String[] args) {
+
+	@Test
+	public void testMaxArea() {
 		int[] arr = {2,6,19,5,7,8,0};
 		System.out.println(maxArea(arr));
 	}
-
+	
 	public static int maxArea(int[] arr) {
 		int left = 0;
 		int right = arr.length - 1;
