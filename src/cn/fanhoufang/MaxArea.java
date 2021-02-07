@@ -1,6 +1,6 @@
 package cn.fanhoufang;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @author 樊厚方 
@@ -17,7 +17,7 @@ public class MaxArea {
 
 	@Test
 	public void testMaxArea() {
-		int[] arr = {2,6,19,5,7,8,0};
+		int[] arr = {2,6,19,5,7,8,0,4,65,2};
 		System.out.println(maxArea(arr));
 	}
 	
